@@ -3,7 +3,9 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>Cratefull</h1>
+      <div className="logo">
+        <h1>Crate Full</h1>
+      </div>
     </div>
   );
 }
