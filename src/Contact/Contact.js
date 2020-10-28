@@ -37,38 +37,37 @@ function Contact() {
       >
         <div className="form-group">
           <label>
-            Name:
-            <input type="text" name="name" />
+            Name: <input type="text" name="name" />
           </label>
         </div>
         <div className="form-group">
           <label>
-            Email:
+            Email:{"  "}
             <input type="email" name="email" />
           </label>
         </div>
         <div className="form-group">
-          <p>Subject:</p>
+          Subject:
           <label>
-            Doante
             <input type="radio" name="subject" value="donate" />
+            Donate
           </label>
           <label>
-            Volunteer
             <input type="radio" name="subject" value="volunteer" />
+            Volunteer
           </label>
           <label>
-            Request Delivery
             <input type="radio" name="subject" value="help" />
+            Request Delivery
           </label>
           <label>
-            Other
             <input type="radio" name="subject" value="other" />
+            Other
           </label>
         </div>
         <div className="form-group">
           <label>
-            Message
+            Message:{"  "}
             <textarea rows={5} name="msg" />
           </label>
         </div>
