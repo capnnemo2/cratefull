@@ -11,7 +11,7 @@ function Home() {
 
       <div className="summary">
         <div className="wrap">
-          <h2>What/Why is Crate Full?</h2>
+          <h2>Crate Full Summary?</h2>
           <p>
             Crate Full is a non-profit organization that provides food for those
             in need. Food is homemade and/or homegrown and hand delivered to
@@ -22,17 +22,48 @@ function Home() {
         <div className="img fake-food"></div>
       </div>
 
-      <div className="who-for">
-        <h2>Who is Crate Full For?</h2>
-        <p>Crate Full was created to benefit those who are without food.</p>
-        <button type="button">Who?</button>
+      <div className="content">
+        <h2>The Facts</h2>
+        <ul className="faq-list">
+          <li className="faq-item">
+            <h3 className="faq-title">Who?</h3>
+            <p className="faq-blurb">
+              Lauren and Matthew White, many others, all volunteers
+            </p>
+          </li>
+          <li className="faq-item">
+            <h3 className="faq-title">What?</h3>
+            <p className="faq-blurb">Food donations to those in need.</p>
+          </li>
+          <li className="faq-item">
+            <h3 className="faq-title">Where?</h3>
+            <p className="faq-blurb">Loomis, CA</p>
+          </li>
+          <li className="faq-item">
+            <h3 className="faq-title">When?</h3>
+            <p className="faq-blurb">
+              Every third Friday of months that start with J
+            </p>
+          </li>
+          <li className="faq-item">
+            <h3 className="faq-title">Why?</h3>
+            <p className="faq-blurb">
+              Some people are in need, others are in a position to help. Crate
+              Full is the bridge between them.
+            </p>
+          </li>
+          <li className="faq-item">
+            <h3 className="faq-title">How?</h3>
+            <p className="faq-blurb">With donations and volunteers.</p>
+          </li>
+        </ul>
       </div>
 
       <div className="counter">
         <Counter />
       </div>
 
-      <div className="how-help">
+      <div className="content">
         <h2>How Can You Help?</h2>
         <p>We always need more food. We always need more hands.</p>
         <button type="button">Donate</button>

@@ -48,6 +48,25 @@ function Contact() {
           </label>
         </div>
         <div className="form-group">
+          <p>Subject:</p>
+          <label>
+            Doante
+            <input type="radio" name="subject" value="donate" />
+          </label>
+          <label>
+            Volunteer
+            <input type="radio" name="subject" value="volunteer" />
+          </label>
+          <label>
+            Request Delivery
+            <input type="radio" name="subject" value="help" />
+          </label>
+          <label>
+            Other
+            <input type="radio" name="subject" value="other" />
+          </label>
+        </div>
+        <div className="form-group">
           <label>
             Message
             <textarea rows={5} name="msg" />

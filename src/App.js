@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import "./App.css";
 
 import Nav from "./Nav/Nav";
 import Home from "./Home/Home";
@@ -17,6 +18,9 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </main>
+      <footer>
+        <a href="https://www.facebook.com/groups/2732114577114672/">Facebook</a>
+      </footer>
     </div>
   );
 }

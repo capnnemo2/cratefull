@@ -50,16 +50,23 @@
   margin: 25px;
 }
 
-.who-for {
+.content {
   text-align: center;
   margin: 25px;
   padding: 25px;
   background-color: lightgray;
 }
 
-.how-help {
-  text-align: center;
-  margin: 25px;
-  padding: 25px;
-  background-color: lightgray;
+.faq-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.faq-item {
+  padding: 10px;
+  background-color: lightgoldenrodyellow;
+}
+
+.faq-list li:nth-child(even) {
+  background-color: lightsalmon;
 }
