@@ -26,6 +26,8 @@ function Contact() {
     //    Nodemailer?
   }
 
+  // TODO if request delivery is checked, a new form appears with input fields like number of family members, etc
+
   return (
     <div className="Contact">
       <h2>Contact Us</h2>

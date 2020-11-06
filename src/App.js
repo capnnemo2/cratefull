@@ -7,6 +7,8 @@ import Home from "./Home/Home";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 
+// TODO waiting for content
+
 function App() {
   return (
     <div className="App">
